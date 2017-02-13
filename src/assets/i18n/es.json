@@ -1,0 +1,8 @@
+{
+    "IndexPage": {
+        "title" : "@Búsqueda-Nickname",
+        "description":"Simple barra de búsqueda realizada con Spring, ElasticSearch y Angular 2",
+        "language": "Lenguaje",
+        "author-info": "Desarrollado por"  
+    }
+}

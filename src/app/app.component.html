@@ -1,3 +1,29 @@
-<h1>
-  {{title}}
-</h1>
+<section class="pen">
+  <div class="panel top">
+    <div class="text-right">
+      <span>{{ "IndexPage.language" | translate}}</span>
+      <button type="button" 
+              class="btn btn-default"
+              (click)="changeLang('es')">
+        ES
+      </button>
+      <button type="button" 
+              class="btn btn-default"
+              (click)="changeLang('en')">
+        EN
+      </button>
+    </div>
+
+    <div class="container vertical-center">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h1 class="title">{{ "IndexPage.title" |translate}}</h1>
+          <p class="lead">{{ "IndexPage.description" |translate}}</p>
+        </div>
+      </div>
+      <app-search></app-search>
+      <h5 class="text-center">{{ "IndexPage.author-info" |translate}} <a style="color: #0B0B61;" href="https://github.com/Thormod">@Thormod</a></h5>
+    </div>
+
+  </div>
+</section>

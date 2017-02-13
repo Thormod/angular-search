@@ -1,0 +1,8 @@
+{
+    "IndexPage": {
+        "title" : "@Nickname-Search",
+        "description":"A very simple searchbar using ElasticSearch, Spring and Angular2",
+        "language": "Language",
+        "author-info": "Develop by"
+    }
+}
